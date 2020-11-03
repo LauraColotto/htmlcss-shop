@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.prodotto {
+  position: relative;
+  display: inline-block;
+  width: 400px;
+  height: 420px;
+  background-color: grey;
+
+}
+
+.sconto{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: green;
+
+}
+
+.sconto.sconto-rosso{
+  background-color: red;
+}
